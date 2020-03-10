@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
+import Switch from "react-switch";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+class App extends Component {
+  constructor() {
+    super();
+    this.state = { checked: false };
+    this.handleChange = this.handleChange.bind(this);
+  }
+
+  handleChange(checked) {
+    this.setState({ checked });
+  }
+
+  render() {
+    return (
+      <label>
+        <h2>Toggle Swtich</h2>
+        <Switch onChange={this.handleChange} checked={this.state.checked} />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Toggle is <b>{this.state.checked ? "ON" : "OFF"}</b>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      </label>
+    );
+  }
 }
 
 export default App;
