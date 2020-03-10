@@ -6,7 +6,7 @@ Please clone the repository first.
 
 Further installation instruction: https://classic.yarnpkg.com/en/docs/install/#mac-stable
 
-2) Access the Toggle App folder: cd toggleapp
+2) Download the zip and cd into the folder
 
 3) In the terminal use: yarn && yarn start
 
