@@ -1,6 +1,6 @@
 Hello,
 
-Please clone the repository first. 
+Please clone the repository: . 
 
 1) Install, yarn package manager from bash terminal using: brew install yarn
 
