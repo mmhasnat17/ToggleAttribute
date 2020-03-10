@@ -12,3 +12,12 @@ Further installation instruction: https://classic.yarnpkg.com/en/docs/install/#m
 
 4) The main source file is App.js
 
+## ON
+
+![](asset/on.png)
+
+
+## OFF
+
+![](asset/off.png)
+
