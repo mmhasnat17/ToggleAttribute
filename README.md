@@ -13,6 +13,10 @@ Further installation instruction: https://classic.yarnpkg.com/en/docs/install/#m
 4) The main source file is App.js
 
 
+
+Ignore the Read me below.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
